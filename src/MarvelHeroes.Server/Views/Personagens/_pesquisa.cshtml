@@ -1,0 +1,11 @@
+﻿@using MarvelHeroes.Server.Models.Personagens
+@model PesquisaViewModel
+
+<div class="container">
+    <div class="container__item">
+        <form asp-controller="personagens" asp-action="pesquisar" class="form">
+            <input asp-for="Nome" class="form__field" placeholder="E agora, quem poderá me ajudar?" />
+            <button type="submit" class="btn btn--primary btn--inside uppercase">Pesquisar</button>
+        </form>
+    </div>
+</div>

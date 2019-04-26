@@ -1,0 +1,31 @@
+version: '3.4'
+
+services:
+  marvelheroes.server:
+    image: ${DOCKER_REGISTRY-}marvelheroesserver
+    build:
+      context: .
+      dockerfile: src/MarvelHeroes.Server/Dockerfile
+    networks:
+     - marvelheroes-rede
+    depends_on:
+     - "redismarvelheroes"
+
+  redismarvelheroes:
+    image: redis:alpine
+    ports:
+      - "16379:6379"
+    networks:
+      - marvelheroes-rede
+  
+  mongomarvelheroes:
+    image: mongo:4.0.9
+    ports:
+      - "27017:27017"
+    networks:
+      - marvelheroes-rede
+
+
+networks: 
+  marvelheroes-rede:
+    driver: bridge

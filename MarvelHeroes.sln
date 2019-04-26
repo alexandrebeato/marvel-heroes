@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarvelHeroes.Server", "src\MarvelHeroes.Server\MarvelHeroes.Server.csproj", "{D036D628-8274-4356-B34D-DAE2277DAEE0}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{55D4E853-BDA2-4637-A1DB-98780DD5E33E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D036D628-8274-4356-B34D-DAE2277DAEE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D036D628-8274-4356-B34D-DAE2277DAEE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D036D628-8274-4356-B34D-DAE2277DAEE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D036D628-8274-4356-B34D-DAE2277DAEE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55D4E853-BDA2-4637-A1DB-98780DD5E33E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55D4E853-BDA2-4637-A1DB-98780DD5E33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55D4E853-BDA2-4637-A1DB-98780DD5E33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55D4E853-BDA2-4637-A1DB-98780DD5E33E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {576C558F-3BB6-4D01-BF69-A855EFEABCED}
+	EndGlobalSection
+EndGlobal

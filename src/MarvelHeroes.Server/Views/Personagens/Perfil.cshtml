@@ -1,0 +1,38 @@
+﻿@using MarvelHeroes.Server.Models.Personagens
+@model PersonagemViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<header>
+
+    <div class="container">
+
+        <div class="profile">
+
+            <div class="profile-image">
+                <img src="@Model.Imagem.CaminhoCompleto" style="max-width:150px; max-height: 152px;" alt="">
+            </div>
+
+            <div class="profile-user-settings">
+                <h1 class="profile-user-name">@Model.Nome</h1>
+            </div>
+
+            <div class="profile-bio">
+
+                <p>
+                    @Model.Descricao
+                </p>
+
+            </div>
+
+        </div>
+        <!-- End of profile section -->
+
+    </div>
+    <!-- End of container -->
+
+</header>
+
+<partial name="_Pesquisa" model="null" />
