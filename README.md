@@ -22,7 +22,7 @@ Se você gostou do projeto ou se ele te ajudou, por favor dê uma estrela ;)
 ```
 docker-compose up -d
 ```
-* Acesse https://localhost:44344 da sua máquina local.
+* Acesse http://localhost:65186 da sua máquina local.
 
 ## Autor 👦
 
