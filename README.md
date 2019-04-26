@@ -19,10 +19,19 @@ Se você gostou do projeto ou se ele te ajudou, por favor dê uma estrela ;)
 
 * Vá no arquivo src\MarvelHeroes.Server\appsettings.json e defina sua chave pública e privada.
 * Execute o comando docker no diretório do arquivo da solução (.sln):
+
+```
+docker-compose build
+```
+* E logo após execute no mesmo diretório:
 ```
 docker-compose up -d
 ```
 * Acesse http://localhost:65186 da sua máquina local.
+* Para desfazer toda infraestrutura criada execute o comando docker no diretório do arquivo da solução (.sln):
+```
+docker-compose down
+```
 
 ## Autor 👦
 
