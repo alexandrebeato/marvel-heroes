@@ -4,6 +4,8 @@ Uma aplicação NET Core 2.2 MVC utilizando Redis e MongoDB com conteinerizaçã
 
 Este projeto não visa implementar uma boa arquitetura de projeto e a única intenção é mostrar como funciona uma implementação com containers.
 
+[![Build status](https://dev.azure.com/alexandrebeato-com/Marvel%20Heroes/_apis/build/status/Marvel-Heroes-CI)](https://dev.azure.com/alexandrebeato-com/Marvel%20Heroes/_build/latest?definitionId=5)
+
 ## Dê uma estrela! :star:
 Se você gostou do projeto ou se ele te ajudou, por favor dê uma estrela ;)
 
